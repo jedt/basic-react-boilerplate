@@ -10,9 +10,11 @@ You need to get rid of this message:
 
 > You are using the in-browser JSX transformer. Be sure to precompile your JSX for production - http://facebook.github.io/react/docs/tooling-integration.html#jsx" JSXTransformer.js:314:0
 
-### Solution: an automated build tool that compiles your jsx files into a single js file
+### Solution: an automated build tool that *compiles your jsx files into a single js file
 
-Take a look at the html boilerplate below:
+<i>*compiles from jsx to plain js</i>
+
+Please take a look at the html boilerplate below:
 
 ```
 <!DOCTYPE html>
@@ -79,13 +81,13 @@ Run gulp browserify - this will initiate a running process that checks the `comp
 
 open your browser and enter the url pointing to the index.html page that you used above. (ex. http://localhost/yourprojectname/index.html)
 
-it should show
+the page should show this text
 
 ```
 This is the parent
 test and this is the Joe.
 ```
 
-to test the compiler modify the file and refresh your browser:
+to test the compiler modify the file below and refresh your browser:
 
 ```app/components/Child.js```
