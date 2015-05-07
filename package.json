@@ -1,0 +1,17 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "main": "js/main.js",
+  "dependencies": {
+    "react": "^0.13.2",
+    "reactify": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^10.1.1",
+    "gulp": "^3.8.11",
+    "gulp-react": "^3.0.1",
+    "watchify": "^3.2.1"
+  }
+}
