@@ -91,3 +91,6 @@ test and this is the Joe.
 to test the compiler modify the file below and refresh your browser:
 
 ```app/components/Child.js```
+
+To do:
+- Flux architecture
