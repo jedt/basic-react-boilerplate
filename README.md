@@ -92,6 +92,4 @@ To test the compiler, modify the file below and refresh your browser:
 
 app/components/Child.js
 
-To do:
-
-- Flux architecture
+Note: You might want to checkout the branch todo-flux - I've added the flux architecture with this boilerplate, it's folder structure is different and also the views to add data input
